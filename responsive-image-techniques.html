@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Working with srcsets</title>
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />  
+        <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic' rel='stylesheet' type='text/css'>
+
+	<style>
+        html {width: 75%; max-width: 1600px; min-width: 280px; margin: 0 auto;}
+		body { font-family: 'Libre Baskerville', serif; font-size: 100%; line-height: 1.5em;}
+        h1, h2, h3 {font-style: normal; font-weight: 400;}
+        h1 {font-size: 2.618em; line-height: 1.5em; text-align: center; }
+        h2 {font-size: 1.618em;}
+        section {padding: 40px 0;}
+        cite {font-size: .65em;}
+        img {max-width: 100%;}
+
+	</style>
+</head>
+<body>
+  <header>
+    <h1>Responsive Image Techniques</h1>
+    </header>
+    
+    <!-- THE IMAGE IS POSITIONED OUTSIDE THE <h1> AND <p> BLOCK ELEMENTS -->
+  <section>
+
+      
+      <picture>
+    <source srcset="img/grasses_320.jpg" media="(max-width: 720px)">
+    <source srcset="img/grasses_640.jpg" media="(max-width: 1280px)">
+    <source srcset="img/grasses_1280.jpg" >
+    <img src="img/grasses_desktop.jpg" alt="A Boards of Canada inspired photograph.">
+</picture>
+
+				
+				<footer>
+					<cite>Another great UnSplash photograph this one is by Cole Patrick</cite>
+				</footer>
+			</blockquote>
+		</section>
+    
+</body>
+</html>
