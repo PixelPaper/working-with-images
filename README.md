@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 The examples below are introducing first year IxD students to srcset and the new picture element. Use is obviously very limited across browsers but in time this will become the standard when serving images.
 
 - [Simple Responsive Images](http://pixelpaper.github.io/working-with-images/simple-responsive.html) – using srcset to change the same image to different dimensions to fit the relevant screen.
@@ -7,3 +8,9 @@ The examples below are introducing first year IxD students to srcset and the new
 **Picturefill** is a "A Responsive Images approach that you can use today, that implements the Editors Draft for the proposed <picture> element with srcset and sizes attributes."
 
 - [Picturefill]()
+=======
+- [Simple Responsive Images](http://pixelpaper.github.io/working-with-images/simple-responsive.html)
+- [Art Directed Images](http://pixelpaper.github.io/working-with-images/art-directed.html)
+
+![Responsive Image](img/grasses_desktop.jpg "Responsive desktop image")
+>>>>>>> Stashed changes
